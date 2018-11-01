@@ -1,0 +1,33 @@
+.list-group-item {
+    padding: .25rem .5rem;
+}
+
+.todo-list__item {
+    display: flex;
+    line-height: 2rem;
+}
+
+.todo-list__text {
+    flex-grow: 1;
+}
+
+.todo-list__item_done {
+    text-decoration: line-through;
+}
+
+.todo-list__item_important {
+    font-weight: 700;
+    color: #4682B4;
+}
+
+.todo-list__text {
+    cursor: pointer;
+}
+
+.todo-list__button {
+    width: 2rem;
+}
+
+.todo-list__button_deleted {
+    margin-left: 5px;
+}

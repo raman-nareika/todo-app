@@ -1,0 +1,14 @@
+.list-header {
+    display: flex;
+    align-items: flex-end
+}
+
+.list-header__title {
+    flex-grow: 1;
+}
+
+.list-header__stat {
+    font-size: 1.2rem;
+    color: grey;
+    text-align: right;
+}
